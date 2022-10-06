@@ -1,0 +1,68 @@
+:root{
+    --primary-text-color:#212121;
+    --title-text-color:#757575;
+    --accent-color:#2196F3;
+}
+body {
+    color:var(--primary-text-color);
+    background-color: #FFFFFF;
+}
+.logo-web {
+    color:var(--accent-color); 
+}
+.logo-studio {
+    color:#000000;
+}
+.logo-footer {
+    color:#FFFFFF;
+}
+.site-nav .link{
+    color:var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:var(--accent-color) ;
+}
+.contacts .link{
+    color:var(--title-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color:var(--accent-color);
+}
+.hero {
+    background-color:#2F303A;;
+}
+.hero-title {
+    color:#FFFFFF;
+}
+.section-advantages{
+    background-color:#FFFFFF;
+}
+.feature-list .text{
+    color: var(--title-text-color);
+}
+.team{
+    background-color: #F5F4FA;;
+}
+.team .text{
+    color:var(--title-text-color)
+}
+.footer-page {
+    background-color:#2F303A;;
+}
+.contacts-footer .address {
+    color: #FFFFFF;
+}
+.contacts-footer .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* колір чорний #212121;*/
+/*основний білий #FFFFFF;*/
+/* колір кнопок background: #2196F3;*/
+/*акцент чор #757575;/*
+/*колір фону хедера #FFFFFF;*/
+/*колір футера #2F303A;*/
+/*колір мейну background: #F5F5F5*/
+/*колір фону background: #F5F4FA;*/
